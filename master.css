@@ -1,17 +1,16 @@
 /* REGOLE GENERALI */
 * {
-  padding:0px;
-  margin:0px;
+
   box-sizing: border-box;
   font-family: 'sailec',sans-serif;
 }
 
 /* nav */
-nav {
-  background-color: white;
-  border: solid black 1px;
-  height: 100px;
+
+
+
 }
+
 
 
 /* jambotron */
@@ -19,81 +18,34 @@ nav {
 
 
 /* section brand */
-.brand {
-  background-color: lightgrey;
-  height: 500px;
-  /* debug */
-  border: solid black 1px;
-
-}
 
 
 
 /* section deploy */
-.deploy {
-  background-color: white;
-  height: 500px;
-  /* debug */
-  border: solid black 1px;
-
-}
 
 
 
 
 /* section design */
-.design {
-  background-color: lightgrey;
-  height: 500px;
-  /* debug */
-  border: solid black 1px;
-}
 
 
 /* section business */
-.business {
-  background-color: white;
-  height: 500px;
-  /* debug */
-  border: solid black 1px;
-}
+
 
 
 
 /* section service */
-.dataimg {
-  height: 600px;
-  width: 100%;
-}
 
 
 
 
 /* section development */
-.development {
-  background-color: lightgrey;
-  height: 500px;
-  /* debug */
-  border: solid black 1px;
-}
 
 
 
 
 /* section getstarted */
-.getstartedimg {
-  height: 245px;
-  width: 100%;
-  /* debug */
-  border: solid black 1px;
-}
 
 
 
 /* footer */
-footer {
-  background-color: #010e28;
-  height: 500px;
-  /* debug */
-  border: solid black 1px;
-}
