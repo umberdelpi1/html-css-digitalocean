@@ -31,9 +31,11 @@
 
 .btn-nav {
   height: 30px;
-  width: 100px;
+  width: 80px;
   margin-top: 11px;
   border-radius: 5px 5px;
+  border-color: #0069ff;
+  color: #0069ff;
 }
 
 
@@ -82,7 +84,7 @@
   text-align: center;
   font-size: 23px;
   font-weight: bold;
-  color:blue;
+  color:#0069ff;
 }
 
 img.logo-gmail {
@@ -97,17 +99,26 @@ img.logo-gmail {
 }
 
 .btn {
+  border: 0;
   width: 350px;
   margin-left: 16px;
   margin-top: 7px;
+  background-color: #0069ff;
 }
 
 .btn-2 {
   background-image: url(img/gmail.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
   width: 350px;
   margin-left: 16px;
   margin-top: 7px;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 1px 1px rgba(231, 231, 231, 0.78);
 }
+
 
 .terms {
   font-size: 11px;
@@ -120,7 +131,47 @@ img.logo-gmail {
 
 .background-brand {
   background-color: lightgrey;
-  height: 300px;
+  height: auto;
+}
+
+#docker {
+  height: 77px;
+  width: 143px;
+}
+
+#gitlab {
+  height: 78px;
+  width: 98px;
+}
+
+#slack {
+  height: 77px;
+  width: 128px;
+}
+
+#hashicorp {
+  height: 77px;
+  width: 156px;
+}
+
+#splunk {
+  height: 36px;
+  width: 120px;
+  margin-top: 22px;
+}
+
+#text-brand-up {
+  font-size: 10px;
+  color: grey;
+  text-align: center;
+}
+
+#text-brand-down {
+  font-size: 10px;
+  color: #0069ff;
+  text-align: center;
+  margin-left: 508px;
+  margin-bottom: 10px;
 }
 
 
