@@ -29,6 +29,13 @@
   font-size: 15px;
 }
 
+.btn-nav {
+  height: 30px;
+  width: 100px;
+  margin-top: 11px;
+  border-radius: 5px 5px;
+}
+
 
 
 
@@ -65,25 +72,62 @@
   font-size: 23px;
   text-align: center;
   font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 0;
+
 }
 
-#abc {
+.jumbo-a-text-up {
+  padding-left: 100px;
   text-align: center;
   font-size: 23px;
   font-weight: bold;
   color:blue;
 }
 
+img.logo-gmail {
+  height: 30px;
+  padding-right: 170px;
 
+}
 
+.form-group {
+  width: 350px;
+  margin-left: 16px;
+}
 
+.btn {
+  width: 350px;
+  margin-left: 16px;
+  margin-top: 7px;
+}
 
+.btn-2 {
+  background-image: url(img/gmail.png);
+  width: 350px;
+  margin-left: 16px;
+  margin-top: 7px;
+}
 
-
-
+.terms {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 5px;
+}
 
 
 /* section brand */
+
+.background-brand {
+  background-color: lightgrey;
+  height: 300px;
+}
+
+
+
+
+
+
 
 
 
