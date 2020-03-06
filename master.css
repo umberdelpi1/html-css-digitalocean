@@ -1,11 +1,11 @@
-/* REGOLE GENERALI */
+/* ---------------------------------------- REGOLE GENERALI */
 * {
 
   box-sizing: border-box;
   font-family: 'sailec',sans-serif;
 }
 
-/* nav */
+/* ---------------------------------------- nav */
 
 #logo-dg-oc {
   height: auto;
@@ -29,8 +29,12 @@
   font-size: 15px;
 }
 
+#link-nav-dx {
+  padding-left: 45%;
+}
+
 .btn-nav {
-  float:right;
+  float:left;
   height: 30px;
   width: 80px;
   margin-top: 11px;
@@ -42,14 +46,14 @@
 
 
 
-/* jambotron */
+/* ---------------------------------------- jambotron */
 
 .contenuto {
   padding-top: 80px;
   background-image: url(img/home.jpg);
   overflow: auto;
 }
-/* jumbo SX */
+/* ---------------------------------------- jumbo SX */
 #jumbo-text-sx {
   color: white;
   font-size: 55px;
@@ -62,7 +66,7 @@
   padding-bottom: 30px;
 }
 
-/* jumbo DX */
+/* ---------------------------------------- jumbo DX */
 
 .background-jumbo-dx {
   background-color: white;
@@ -129,7 +133,7 @@ img.logo-gmail {
 }
 
 
-/* section brand */
+/* ---------------------------------------- section brand */
 
 .background-brand {
   background-color: lightgrey;
@@ -178,7 +182,7 @@ img.logo-gmail {
 }
 
 
-/* section deploy */
+/* ---------------------------------------- section deploy */
 
 .background-deploy {
   background-color: white;
@@ -188,7 +192,7 @@ img.logo-gmail {
 
 #text-deploy-up {
   padding-top: 50px;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   color: #031b4e;
   text-align: center;
@@ -201,34 +205,24 @@ img.logo-gmail {
   text-align: center;
 }
 
-
-
-.list-deploy {
-
-}
-
-
-
 .list-deploy-sx {
   list-style: none;
   border-left: solid lightgrey 3px;
   margin: auto;
   line-height: 65px;
-
 }
 
 
-/* section design */
+/* ---------------------------------------- section design */
 
 .background-design {
-  background-color: white;
-  border: solid black 1px;
+  background-color: #f3f5f9;
   height: auto;
 }
 
 #text-design-up {
   padding-top: 50px;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   color: #031b4e;
   text-align: center;
@@ -265,6 +259,46 @@ img.logo-gmail {
 }
 
 
+/* ---------------------------------------- section business */
+.background-business {
+  background-color: white;
+  height: auto;
+  padding-bottom: 80px;
+}
+
+
+#text-business-up {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #031b4e;
+  text-align: center;
+}
+
+.img-business-icon {
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.title-business-icon {
+  font-size: 20px;
+  color: #031b4e;
+  text-align: left;
+  font-weight: bold;
+}
+
+.title-business-icon2 {
+  font-size: 15px;
+  color: rgba(3,27,78,0.7);
+  text-align: left;
+  font-weight: normal;
+}
+
+.link-business-up {
+  font-size: 15px;
+  font-weight: bold;
+}
 
 
 
@@ -273,28 +307,18 @@ img.logo-gmail {
 
 
 
+/* ---------------------------------------- section service */
 
 
 
 
-
-/* section business */
-
-
-
-
-/* section service */
+/* ---------------------------------------- section development */
 
 
 
 
-/* section development */
+/* ---------------------------------------- section getstarted */
 
 
 
-
-/* section getstarted */
-
-
-
-/* footer */
+/* ---------------------------------------- footer */
