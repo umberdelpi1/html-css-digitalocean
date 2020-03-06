@@ -2,7 +2,7 @@
 * {
 
   box-sizing: border-box;
-  font-family: 'sailec',sans-serif;
+  font-family: 'sailec',helvetica;
 }
 
 /* ---------------------------------------- nav */
@@ -236,13 +236,12 @@ img.logo-gmail {
 }
 
 #img-design {
-  margin: auto;
-  text-align: center;
-  height: auto;
   width: 650px;
+  padding-right: 90px;
 }
 
 #text-design-down {
+  padding-top: 20px;
   font-size: 15px;
   color: #031b4e;
   text-align: center;
@@ -250,6 +249,8 @@ img.logo-gmail {
 }
 
 .circle {
+  padding-top: 5px;
+  padding-bottom: 50px;
   text-align: center;
   color: rgb(16, 108, 204);
 }
@@ -301,24 +302,106 @@ img.logo-gmail {
 }
 
 
-
-
-
-
-
-
 /* ---------------------------------------- section service */
 
+.background-service {
+  background-color: #0026c2;
+  height: auto;
+  /* debug */
+  /* padding-bottom: 80px; */
+}
 
+.title-service-up {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 40px;
+}
+/* tabella */
+
+/* .line-under-table {
+  border-bottom: solid grey 1px;
+} */
 
 
 /* ---------------------------------------- section development */
+.background-design {
+  background-color: #f3f5f9;
+  height: auto;
+}
+
+#text-development-up {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #031b4e;
+  text-align: center;
+}
+
+#img-development {
+  width: 650px;
+  padding-right: 90px;
+}
+
+
+.circle-development {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: rgb(16, 108, 204);
+}
+
+.fas {
+  color: rgb(16, 108, 204);
+}
+
 
 
 
 
 /* ---------------------------------------- section getstarted */
+.background-getstarted {
+  background-color: #0026c2;
+  height: auto;
+}
 
+#title-getstarted {
+  padding-top: 50px;
+  padding-bottom: 7px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
 
+}
+
+.btn3 {
+  background-color: white;
+  margin-bottom: 40px;
+  color: #0069ff;
+  height: 40px;
+  width: 175px;
+  border-radius: 5px;
+  font-weight: bold;
+}
 
 /* ---------------------------------------- footer */
+.background-footer {
+  background-color: #001a5e;
+  height: auto;
+  padding-bottom: 50px;
+  padding-top: 90px;
+}
+
+.logo-dig-oce {
+  height: 55px;
+  width: auto;
+
+}
+
+.footer-list-1 {
+list-style: none;
+line-height: 30px;
+}
