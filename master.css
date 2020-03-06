@@ -182,7 +182,6 @@ img.logo-gmail {
 
 .background-deploy {
   background-color: white;
-  border: solid black 1px;
   height: auto;
 }
 
@@ -202,8 +201,10 @@ img.logo-gmail {
   text-align: center;
 }
 
+
+
 .list-deploy {
-  
+
 }
 
 
@@ -212,6 +213,55 @@ img.logo-gmail {
   list-style: none;
   border-left: solid lightgrey 3px;
   margin: auto;
+  line-height: 65px;
+
+}
+
+
+/* section design */
+
+.background-design {
+  background-color: white;
+  border: solid black 1px;
+  height: auto;
+}
+
+#text-design-up {
+  padding-top: 50px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #031b4e;
+  text-align: center;
+}
+
+#text-design-middle {
+  font-size: 20px;
+  font-weight: 500;
+  color: #031b4e;
+  text-align: center;
+}
+
+#img-design {
+  margin: auto;
+  text-align: center;
+  height: auto;
+  width: 650px;
+}
+
+#text-design-down {
+  font-size: 15px;
+  color: #031b4e;
+  text-align: center;
+  font-weight: bold;
+}
+
+.circle {
+  text-align: center;
+  color: rgb(16, 108, 204);
+}
+
+.fas {
+  color: rgb(16, 108, 204);
 }
 
 
@@ -223,7 +273,9 @@ img.logo-gmail {
 
 
 
-/* section design */
+
+
+
 
 
 /* section business */
