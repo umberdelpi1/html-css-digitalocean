@@ -1,12 +1,11 @@
 /* ---------------------------------------- REGOLE GENERALI */
 * {
-
-  box-sizing: border-box;
-  font-family: 'sailec',helvetica;
+ box-sizing: border-box;
+ font-family: 'sailec','helvetica';
 }
 
-/* ---------------------------------------- nav */
 
+/* ---------------------------------------- nav */
 #logo-dg-oc {
   height: auto;
   height: 22px;
@@ -44,15 +43,14 @@
 }
 
 
-
-
 /* ---------------------------------------- jambotron */
-
 .contenuto {
   padding-top: 80px;
   background-image: url(img/home.jpg);
   overflow: auto;
 }
+
+
 /* ---------------------------------------- jumbo SX */
 #jumbo-text-sx {
   color: white;
@@ -66,14 +64,15 @@
   padding-bottom: 30px;
 }
 
-/* ---------------------------------------- jumbo DX */
 
+/* ---------------------------------------- jumbo DX */
 .background-jumbo-dx {
   background-color: white;
-  height: 295px;
-  width: 389px;
+  height: auto;
+  width: auto;
   border-radius: 2%;
   float: right;
+  padding: 15px 37px;
 }
 
 #jumbo-text-dx {
@@ -82,7 +81,6 @@
   font-weight: bold;
   margin-top: 10px;
   margin-bottom: 0;
-
 }
 
 .jumbo-a-text-up {
@@ -96,7 +94,6 @@
 img.logo-gmail {
   height: 30px;
   padding-right: 170px;
-
 }
 
 .form-group {
@@ -134,7 +131,6 @@ img.logo-gmail {
 
 
 /* ---------------------------------------- section brand */
-
 .background-brand {
   background-color: lightgrey;
   height: auto;
@@ -183,10 +179,10 @@ img.logo-gmail {
 
 
 /* ---------------------------------------- section deploy */
-
 .background-deploy {
   background-color: white;
   height: auto;
+  padding-bottom: 50px;
 }
 
 
@@ -199,6 +195,7 @@ img.logo-gmail {
 }
 
 #text-deploy-middle {
+  padding-bottom: 40px;
   font-size: 20px;
   font-weight: 500;
   color: #031b4e;
@@ -209,12 +206,16 @@ img.logo-gmail {
   list-style: none;
   border-left: solid lightgrey 3px;
   margin: auto;
-  line-height: 65px;
+  line-height: 55px;
+}
+
+.list-deploy-sx li a {
+  font-size: 20px;
+  color: rgb(96, 103, 126);
 }
 
 
 /* ---------------------------------------- section design */
-
 .background-design {
   background-color: #f3f5f9;
   height: auto;
@@ -222,6 +223,7 @@ img.logo-gmail {
 
 #text-design-up {
   padding-top: 50px;
+  padding-bottom: 20px;
   font-size: 30px;
   font-weight: bold;
   color: #031b4e;
@@ -229,6 +231,7 @@ img.logo-gmail {
 }
 
 #text-design-middle {
+  padding-bottom: 50px;
   font-size: 20px;
   font-weight: 500;
   color: #031b4e;
@@ -246,6 +249,10 @@ img.logo-gmail {
   color: #031b4e;
   text-align: center;
   font-weight: bold;
+}
+
+.space {
+  padding-bottom: 50px;
 }
 
 .circle {
@@ -296,19 +303,17 @@ img.logo-gmail {
   font-weight: normal;
 }
 
-.link-business-up {
+.link-business-down {
   font-size: 15px;
   font-weight: bold;
 }
 
 
 /* ---------------------------------------- section service */
-
 .background-service {
   background-color: #0026c2;
   height: auto;
-  /* debug */
-  /* padding-bottom: 80px; */
+  padding-bottom: 80px;
 }
 
 .title-service-up {
@@ -317,12 +322,28 @@ img.logo-gmail {
   font-weight: bold;
   text-align: center;
   padding-top: 40px;
+  padding-bottom: 15px;
 }
-/* tabella */
 
-/* .line-under-table {
-  border-bottom: solid grey 1px;
-} */
+.list1 {
+  width: auto;
+  color: white;
+  /* debug */
+  /* border-bottom: solid white 1px */
+}
+
+.list2 {
+  color: rgb(171, 171, 171);
+  /* debug */
+  /* border-bottom: solid white 1px */
+}
+
+.list3 {
+  width: auto;
+  color: rgb(0, 247, 255);
+  /* debug */
+  /* border-bottom: solid white 1px */
+}
 
 
 /* ---------------------------------------- section development */
@@ -358,9 +379,6 @@ img.logo-gmail {
 }
 
 
-
-
-
 /* ---------------------------------------- section getstarted */
 .background-getstarted {
   background-color: #0026c2;
@@ -374,11 +392,11 @@ img.logo-gmail {
   font-weight: bold;
   color: white;
   text-align: center;
-
 }
 
 .btn3 {
   background-color: white;
+  margin: auto;
   margin-bottom: 40px;
   color: #0069ff;
   height: 40px;
@@ -398,10 +416,32 @@ img.logo-gmail {
 .logo-dig-oce {
   height: 55px;
   width: auto;
+}
 
+#copyright {
+  font-size: 15px;
+  padding-top: 10px;
+  color: rgb(199, 217, 228, 0.8);
+  margin: 0;
+}
+
+#copy2 {
+  color: rgb(196, 191, 191, 0.7);
+
+}
+
+.icone-social {
+  color: rgb(199, 217, 228, 0.8);
+  padding-bottom: 50px;
 }
 
 .footer-list-1 {
 list-style: none;
 line-height: 30px;
+color: rgb(199, 217, 228, 0.8);
+}
+
+.bold {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.8);
 }

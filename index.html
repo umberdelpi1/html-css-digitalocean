@@ -17,10 +17,10 @@
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="row">
-          <div class="col-lg-2">
+          <div class="col-xs-12 col-lg-2">
             <img id="logo-dg-oc" src="img/logoDigitalOcean.png" alt="">
           </div>
-          <div class="col-lg-5">
+          <div class="col-xs-12 col-lg-5">
             <ul id="link-nav-sx" >
               <li><a href="#">Products</a></li>
               <li><a href="#">Costumers</a></li>
@@ -28,7 +28,7 @@
               <li><a href="#">Pricing</a></li>
             </ul>
           </div>
-          <div class="col-lg-5">
+          <div class="col-xs-12 col-lg-5">
             <ul id="link-nav-dx" >
               <li><a href="#">Docs</a></li>
               <li><a href="#">Support</a></li>
@@ -88,22 +88,22 @@
       </div>
 
       <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-2">
             <img id="docker"src="img/docker.png" alt="">
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-2">
             <img id="gitlab"src="img/gitlab.png" alt="">
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-2">
             <img id="slack"src="img/slack.png" alt="">
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-2">
             <img id="hashicorp"src="img/hashicorp.png" alt="">
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-2">
             <img id="hashicorp"src="img/hashicorp.png" alt="">
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-2">
             <img id="splunk"src="img/splunk.png" alt="">
         </div>
       </div>
@@ -123,7 +123,7 @@
     <div class="background-deploy">
       <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-md-12 col-lg-12">
+            <div class="col-lg-12">
               <h2 id="text-deploy-up">Deploy and scale seamlessly</h2>
               <p id="text-deploy-middle">Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
             </div>
@@ -134,6 +134,7 @@
                   <li><a href="#">Deploy</a></li>
                   <li><a href="#">Manage</a></li>
                   <li><a href="#">Secure</a></li>
+                  <li><a href="#">Scale</a></li>
                   <li><a href="#">Monitor</a></li>
                 </ul>
               </div>
@@ -142,7 +143,7 @@
             <div class="col-lg-4">
               <img src="img/Ico-1.png" alt="">
               <h3>Kubernetes in minutes</h3>
-              <p>Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your worker nodes.</p>
+              <p class="space" >Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your worker nodes.</p>
 
               <img src="img/Ico-4.png" alt="">
               <h3>1-Click App Marketplace</h3>
@@ -152,7 +153,7 @@
             <div class="col-lg-4">
               <img src="img/Ico-2.png" alt="">
               <h3>Flexible compute types</h3>
-              <p>With Standard, General Purpose, CPU-Optimized or Memory-Optimized Droplets, you can choose the right infrastructure for your workload.</p>
+              <p class="space" >With Standard, General Purpose, CPU-Optimized or Memory-Optimized Droplets, you can choose the right infrastructure for your workload.</p>
 
               <img src="img/Ico-3.png" alt="">
               <h3>Global availability</h3>
@@ -209,19 +210,19 @@
             <img class="img-business-icon" src="img/Ico-6.png" alt="">
             <p class="title-business-icon">Predictable pricing</p>
             <p class="title-business-icon2">Leave complex pricing structures behind. Always know what you'll pay per month with a flat, industry-leading pricing structure.</p>
-            <a class="link-business-up"href="#">Pricing  > </a>
+            <a class="link-business-down"href="#">Pricing  > </a>
           </div>
           <div class="col-lg-4">
             <img class="img-business-icon" src="img/Ico-7.png" alt="">
             <p class="title-business-icon">World-class service</p>
             <p class="title-business-icon2">Free round-the-clock technical support for all customers. You'll feel the love</p>
-            <a class="link-business-up"href="#">Support  > </a>
+            <a class="link-business-down"href="#">Support  > </a>
           </div>
           <div class="col-lg-4">
             <img class="img-business-icon" src="img/Ico-5.png" alt="">
             <p class="title-business-icon">Reliable platform</p>
             <p class="title-business-icon2">More than 100,000 developer teams worldwide trust DigitalOcean to support thei businesss with a 99.99% uptime SLA for all services.</p>
-            <a class="link-business-up"href="#">Security  > </a>
+            <a class="link-business-down"href="#">Security  > </a>
           </div>
         </div>
       </div>
@@ -233,43 +234,159 @@
     <div class="background-service">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12">
+          <div class="col-xs-12 col-lg-12">
             <h2 class="title-service-up">Service your customers around the world from 12 regions.</h2>
           </div>
-          <!-- tabella -->
-          <div class="col-lg-6">
-            <table>
-              <tr>
-                <th>djshd</th>
-              </tr>
-              <tr>
-                <th>djshd</th>
-              </tr>
-              <tr>
-                <th>djshd</th>
-              </tr>
-            </table>
-
-          </div>
-          <!-- <div class="col-lg-6">
-            <div class="line-under-table">
-              <div class="col-lg-2">
+        </div>
+        <!-- lista service SX -->
+        <div class="row">
+          <div class="col-xs-12 col-lg-6">
+            <div class="row">
+              <div class="col-xs-3 col-lg-3 col-lg-offset-1 list1">
                 <p>AMS2</p>
               </div>
-              <div class="col-lg-5">
-                <p>Amsterdam, Netherlands</p>
+              <div class="col-xs-6 col-lg-6">
+                <p class="list2">Amsterdam, Netherlands</p>
               </div>
-              <div class="col-lg-5">
-                <a href="#">Test speed > </a>
+              <div class="col-xs-3 col-lg-3">
+                <a class="list3" href="#">Test speed > </a>
               </div>
             </div>
-          </div> -->
 
-          <div class="col-lg-6">
-            <h2 class="title-service-up">Service your customers around the world from 12 regions.</h2>
+            <div class="row">
+              <div class="col-xs-3 col-lg-3 col-lg-offset-1 list1">
+                <p>AMS2</p>
+              </div>
+              <div class="col-xs-6 col-lg-6">
+                <p class="list2">Amsterdam, Netherlands</p>
+              </div>
+              <div class="col-xs-3 col-lg-3">
+                <a class="list3" href="#">Test speed > </a>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-3 col-lg-3 col-lg-offset-1 list1">
+                <p>AMS2</p>
+              </div>
+              <div class="col-xs-6 col-lg-6">
+                <p class="list2">Amsterdam, Netherlands</p>
+              </div>
+              <div class="col-xs-3 col-lg-3">
+                <a class="list3" href="#">Test speed > </a>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-3 col-lg-3 col-lg-offset-1 list1">
+                <p>AMS2</p>
+              </div>
+              <div class="col-xs-6 col-lg-6">
+                <p class="list2">Amsterdam, Netherlands</p>
+              </div>
+              <div class="col-xs-3 col-lg-3">
+                <a class="list3" href="#">Test speed > </a>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-3 col-lg-3 col-lg-offset-1 list1">
+                <p>AMS2</p>
+              </div>
+              <div class="col-xs-6 col-lg-6">
+                <p class="list2">Amsterdam, Netherlands</p>
+              </div>
+              <div class="col-xs-3 col-lg-3">
+                <a class="list3" href="#">Test speed > </a>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-3 col-md-3 col-md-offseto-1 col-lg-3 col-lg-offset-1 list1">
+                <p>AMS2</p>
+              </div>
+              <div class="col-xs-6 col-md-6 col-lg-6">
+                <p class="list2">Amsterdam, Netherlands</p>
+              </div>
+              <div class="col-xs-3 col-md-3 col-lg-3">
+                <a class="list3" href="#">Test speed > </a>
+              </div>
+            </div>
           </div>
+          <!-- lista service DX -->
+          <div class="col-xs-12 col-lg-6">
+            <div class="row">
+              <div class="col-xs-3 col-md-3 col-lg-3 list1">
+                <p>AMS2</p>
+              </div>
+              <div class="col-xs-6 col-md-6 col-lg-6">
+                <p class="list2">Amsterdam, Netherlands</p>
+              </div>
+              <div class="col-xs-3 col-md-3 col-lg-3">
+                <a class="list3" href="#">Test speed > </a>
+              </div>
+            </div>
 
+            <div class="row">
+              <div class="col-xs-3 col-md-3 col-lg-3 list1">
+                <p>AMS2</p>
+              </div>
+              <div class="col-xs-6 col-md-6 col-lg-6">
+                <p class="list2">Amsterdam, Netherlands</p>
+              </div>
+              <div class="col-xs-3 col-md-3 col-lg-3">
+                <a class="list3" href="#">Test speed > </a>
+              </div>
+            </div>
 
+            <div class="row">
+              <div class="col-xs-3 col-md-3 col-lg-3 list1">
+                <p>AMS2</p>
+              </div>
+              <div class="col-xs-6 col-md-6 col-lg-6">
+                <p class="list2">Amsterdam, Netherlands</p>
+              </div>
+              <div class="col-xs-3 col-md-3 col-lg-3">
+                <a class="list3" href="#">Test speed > </a>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-3 col-md-3 col-lg-3 list1">
+                <p>AMS2</p>
+              </div>
+              <div class="col-xs-6 col-md-6 col-lg-6">
+                <p class="list2">Amsterdam, Netherlands</p>
+              </div>
+              <div class="col-xs-3 col-md-3 col-lg-3">
+                <a class="list3" href="#">Test speed > </a>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-3 col-md-3 col-lg-3 list1">
+                <p>AMS2</p>
+              </div>
+              <div class="col-xs-6 col-md-6 col-lg-6">
+                <p class="list2">Amsterdam, Netherlands</p>
+              </div>
+              <div class="col-xs-3 col-md-3 col-lg-3">
+                <a class="list3" href="#">Test speed ></a>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-3 col-md-3 col-lg-3 list1">
+                <p>AMS2</p>
+              </div>
+              <div class="col-xs-6 col-md-6 col-lg-6">
+                <p class="list2">Amsterdam, Netherlands</p>
+              </div>
+              <div class="col-xs-3 col-md-3 col-lg-3">
+                <a class="list3" href="#">Test speed > </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -285,12 +402,12 @@
         </div>
 
         <div class="row">
-          <div class="col-lg-6 col-lg-offset-3">
+          <div class="col-xs-12 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
             <img id="img-development"src="img/development.jpg" alt="screenshot design">
         </div>
 
         <div class="row">
-          <div class="col-lg-12">
+          <div class="col-xs-12 col-lg-12">
             <div class="circle-development">
               <i class="fas fa-circle"></i>
               <i class="far fa-circle"></i>
@@ -307,10 +424,10 @@
     <div class="background-getstarted">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12">
+          <div class="col-xs-12 col-md-12 col-lg-12">
             <h2 id="title-getstarted">Get started now.</h2>
           </div>
-          <div class="col-lg-6 col-lg-offset-5">
+          <div class="col-xs-6 col-xs-offset-4 col-md-4 col-md-offset-5 col-lg-6 col-lg-offset-5">
             <button type="button" class="btn3">Create your account</button>
           </div>
         </div>
@@ -323,10 +440,10 @@
       <div class="background-footer">
         <div class="container">
           <div class="row">
-            <div class="col-lg-4">
+            <div class="col-xs-12 col-lg-4">
               <img class="logo-dig-oce"src="img/logoDigitalOceanFooter.svg" alt="">
-              <p><i class="far fa-copyright"></i>2018 DigitalOcean, LLC. All rights reserved.</p>
-              <p>Proudly made in NY</p>
+              <p id="copyright"><i class="far fa-copyright"></i>2018 DigitalOcean, LLC. All rights reserved.</p>
+              <p id="copy2">Proudly made in NY</p>
               <div class="icone-social">
                 <i class="fab fa-twitter"></i>
                 <i class="fab fa-facebook-square"></i>
@@ -335,9 +452,9 @@
                 <i class="fab fa-linkedin"></i>
               </div>
             </div>
-            <div class="col-lg-2">
+            <div class="col-xs-4 col-lg-2">
               <ul class="footer-list-1">
-                <li><a href="#">Company</a></li>
+                <li><a class="bold" href="#">Company</a></li>
                 <li><a href="#">Leadership</a></li>
                 <li><a href="#">Link</a></li>
                 <li><a href="#">Blog</a></li>
@@ -349,9 +466,9 @@
                 <li><a href="#">Legal&Security</a></li>
               </ul>
             </div>
-            <div class="col-lg-2">
+            <div class="col-xs-4 col-lg-2">
               <ul class="footer-list-1">
-                <li><a href="#">Products</a></li>
+                <li><a class="bold" href="#">Products</a></li>
                 <li><a href="#">Droplets</a></li>
                 <li><a href="#">Kubernetes</a></li>
                 <li><a href="#">Load Balancer</a></li>
@@ -364,9 +481,9 @@
                 <li><a href="#">Release Notes</a></li>
               </ul>
             </div>
-            <div class="col-lg-2">
+            <div class="col-xs-4 col-lg-2">
               <ul class="footer-list-1">
-                <li><a href="#">Community</a></li>
+                <li><a class="bold" href="#">Community</a></li>
                 <li><a href="#">Tutorials</a></li>
                 <li><a href="#">Meetsup</a></li>
                 <li><a href="#">Q&A</a></li>
@@ -379,9 +496,9 @@
                 <li><a href="#">Open Source</a></li>
               </ul>
             </div>
-            <div class="col-lg-2">
+            <div class="col-xs-2 col-lg-2">
               <ul class="footer-list-1">
-                <li><a href="#">Support</a></li>
+                <li><a class="bold" href="#">Support</a></li>
                 <li><a href="#">Contact Support</a></li>
                 <li><a href="#">FAQ</a></li>
                 <li><a href="#">Network Status</a></li>
